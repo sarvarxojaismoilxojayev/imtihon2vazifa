@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  line-height: 1px;
+}
+
+.top-bread {
+  z-index: 1;
+}
+
+.button-bread {
+  margin-top: -45px;
+  z-index: -2;
+}
+
+img {
+  width: 300px;
+}
+
+.intelval-item {
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+}
+
+.cheese {
+  transform: rotateX(60deg);
+  margin-top: -50px;
+  margin-bottom: -10px;
+}
+
+.meat {
+  transform: rotateX(60deg);
+  margin-top: -40px;
+  margin-top: -80px;
+  z-index: -1;
+}
+
+.solad {
+  margin-top: -50px;
+  margin-bottom: 15px;
+  transform: rotateX(40deg);
+  z-index: -2;
+}
+
+.onion {
+  margin-top: -70px;
+  margin-bottom: 15px;
+  transform: rotateX(60deg);
+  z-index: -3;
+}
+
+.pickle {
+  margin-top: -100px;
+  margin-bottom: 15px;
+  transform: rotateX(60deg);
+  z-index: -4;
+}
+
+.tomato {
+  margin-top: -90px;
+  margin-bottom: 15px;
+  transform: rotateX(60deg);
+  z-index: -5;
+  margin-bottom: -20px;
+}
+
+.info {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  line-height: 25px;
+}
+
+.block-1 {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.buttons {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(85, 82, 82);
+}
+
+.total {
+  color: black;
+  font-weight: bold;
+}
+
+.buy {
+  margin-left: 10px;
+  margin-top: -20px;
+  width: 300px;
+}
+
+.check {
+  background: #333;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  width: 800px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  opacity: 0.8;
+  left: 300px;
+  display: none;
+}
+
+.yopish {
+  width: 500px;
+}/*# sourceMappingURL=main.css.map */
